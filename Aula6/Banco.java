@@ -1,12 +1,8 @@
 public class Banco {
-  private ContaAbstrata[] contas;
-  private int indice;  
-  private double taxa = 0.01;
+  private RepositorioContas rep 
 
-  public Banco() {
-    contas = new ContaAbstrata[100];
-    indice = 0;
-    taxa=0.02;
+  public Banco(RepositorioContas rep) {
+    this.rep = rep 
   }
 
   public void cadastrarConta(Conta c) {

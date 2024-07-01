@@ -19,6 +19,10 @@ public abstract class ContaAbstrata {
         return this.numero;
     }
 
+    public void setNumero(String numero){
+        this.numero = numero;
+    }
+
     protected void setSaldo(double valor){
         this.saldo = valor;
     }
